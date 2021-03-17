@@ -1,7 +1,72 @@
 body{
     background-color: rgb(82, 82, 82);
+    padding-left: 400px;
+    padding-right: 400px;
 }
-button{
+/*
+a:link{
+    color: black;
     background-color: black;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: red;
+}
+#filler{
     color: wheat;
+}
+/*img{
+    border: 1px solid black;
+    transform: scaleX(-1);
+    border-radius: 50%;
+    
+}
+*/
+div.brumbrum{
+    width: 200px;
+}
+p{
+    color: white;
+}
+div.grid-item{
+    border: 1px solid white;
+    color: pink;
+    float:inherit;
+}
+.button {
+    background-color: White;
+    border: none;
+    color: black;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.button:hover{
+    background-color: black;
+    color: white;
+}
+.button1{
+    background-color: White;
+    border: none;
+    color: black;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: black;
+    color: white;
+}
+.footer{
+    Display: block;
 }
