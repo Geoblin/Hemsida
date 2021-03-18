@@ -1,62 +1,40 @@
 body{
-    background-color: white;
     padding-left: 400px;
     padding-right: 400px;
-    height: 100%;
-    margin: 0;
-    min-height: 100%;
-    margin-bottom: -50px;
-}
-/*
-a:link{
-    color: black;
-    background-color: black;
-}
-a:visited{
-    color: white;
-}
-a:hover{
-    color: red;
-}
-#filler{
-    color: wheat;
-}
-/*img{
-    border: 1px solid black;
-    transform: scaleX(-1);
-    border-radius: 50%;
-    
-}
-*/
-div.brumbrum{
-    width: 200px;
+    margin: 0px;
+    /* background colour */
+    background: #C9D6FF;  
+background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  
+background: linear-gradient(to right, #E2E2E2, #C9D6FF); 
+
 }
 p{
     color: black;
 }
-div.grid-item{
-    border: 1px solid white;
-    color: darkgray;
-    float:inherit;
+h1 ,h2 ,h3, h4, h5, h6{
+    color: black;
+    font-weight: bold;
 }
-#menu{
-    background-color: darkgoldenrod;
+.nav{
+    display: flex;
+    flex-direction: row;
 }
 .button {
-    background-color: White;
+    background-color: #808e9b;
     border: none;
-    color: black;
+    color: white;
     padding: 5px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    margin: 4px 2px;
+    margin: 0px;
     cursor: pointer;
   }
 .button:hover{
-    background-color: black;
+    background-color: #485460;
     color: white;
+    text-decoration: none;
 }
 .button1{
     background-color: White;
@@ -76,11 +54,21 @@ div.grid-item{
 }
 .footer,
 .push{
-    background-color: darkblue;
     position: absolute;
     left: 0 ; right: 0 ; bottom: 0 ;
-    height: [footer-height]
+    height: [footer-height];
+}
+.footer{
+    text-decoration: none;
+    background-color: teal;
+    padding-left: 400px;
+}
+.footer:a{
+    float:left;
+    width:20px;
 }
 #link{
     color: white;
+    text-decoration: none;
+.login{
 }
