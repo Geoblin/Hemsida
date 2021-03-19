@@ -3,10 +3,20 @@ body{
     padding-right: 400px;
     margin: 0px;
     /* background colour */
-    background: #C9D6FF;  
-background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  
-background: linear-gradient(to right, #E2E2E2, #C9D6FF); 
-
+    background-color: black;
+}
+.content{
+    width: 100%;
+    max-width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100%;
+    margin: 0;
+    box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
+    box-sizing: border-box;
+    display: block;
+    scroll-padding-bottom: 100%;
+    background: linear-gradient(to bottom, #ece9e6, #b8b8b8);
 }
 p{
     color: black;
@@ -15,14 +25,26 @@ h1 ,h2 ,h3, h4, h5, h6{
     color: black;
     font-weight: bold;
 }
-.nav{
+.navbar{
     display: flex;
     flex-direction: row;
+    text-align: center;
+    position: sticky;
+    background-color: rgb(87, 23, 87);
+    top: 0;
+    z-index: 1071;
+    position: webkit-sticky;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .button {
-    background-color: #808e9b;
     border: none;
-    color: white;
+    color: rgb(206, 205, 205);
     padding: 5px 20px;
     text-align: center;
     text-decoration: none;
@@ -32,7 +54,6 @@ h1 ,h2 ,h3, h4, h5, h6{
     cursor: pointer;
   }
 .button:hover{
-    background-color: #485460;
     color: white;
     text-decoration: none;
 }
@@ -52,23 +73,66 @@ h1 ,h2 ,h3, h4, h5, h6{
     background-color: black;
     color: white;
 }
-.footer,
-.push{
-    position: absolute;
-    left: 0 ; right: 0 ; bottom: 0 ;
-    height: [footer-height];
-}
-.footer{
+.icons{
     text-decoration: none;
     background-color: teal;
     padding-left: 400px;
 }
-.footer:a{
-    float:left;
-    width:20px;
-}
-#link{
+.gallery_products{
+    width: auto;
+    height: auto;
+    margin: 10px;
+    border: 5px solid black;
+    float: left;
+    background-color: black;
     color: white;
-    text-decoration: none;
-.login{
+}
+.gallery_products:hover{
+    border: 5px solid white;
+    cursor: pointer;
+}
+div.gallery_products img{
+    width: 200px;
+    height: 200px;
+}
+div.gallery_desc{
+    padding: 15px;
+    text-align: center;
+}
+.navbar a.active{
+    background-color: grey;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content{
+    padding-top: 60px;
+}
+.Login_button{
+    background-color: rgb(87, 23, 87);
+    top: 0;
+    z-index: 1071;
+    position: webkit-sticky;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.flex-container {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+.flex-item {
+    margin: 5px;
+  }
+.navbar_social{
+    margin-left: auto;
+    display: inline-flex;
+    text-align: right;
+}
+.discord_icon{
+    padding-bottom:"10px";
 }
