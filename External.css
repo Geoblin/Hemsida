@@ -199,3 +199,8 @@ div.gallery_desc{
     width: 300px;
     text-align: center;
 }
+.signup_form{
+    width: 450px;
+    text-align: center;
+    margin-left: 370px;
+}
