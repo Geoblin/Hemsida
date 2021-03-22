@@ -31,11 +31,7 @@ h1 ,h2 ,h3, h4, h5, h6{
     text-align: center;
     position: sticky;
     background-color: rgb(87, 23, 87);
-    top: 0;
     z-index: 1071;
-    position: webkit-sticky;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 .sticky{
     position: fixed;
@@ -133,6 +129,73 @@ div.gallery_desc{
     display: inline-flex;
     text-align: right;
 }
-.discord_icon{
-    padding-bottom:"10px";
+.input_info{
+    list-style-type:none;
+    text-align: center;
+    box-shadow: 0px 0px 0px 1px rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+
+}
+.Terms_link{
+    cursor: pointer;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+#Email{
+    width: 300px;
+    text-align: center;
+}
+#Fname{
+    width: 150px;
+    text-align: center;
+}
+#Lname{
+    width: 150px;
+    text-align: center;
+}
+#Pword{
+    width: 300px;
+    text-align: center;
+}
+#RePword{
+    width: 300px;
+    text-align: center;
 }
